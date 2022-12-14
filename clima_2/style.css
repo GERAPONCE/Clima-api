@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(90deg, rgba(109,0,176,1) 20%, rgba(255,0,56,1) 100%);
+}
+
+.main{
+    display: flex;
+}
+
+.card{
+    background-image: url(img/clouds.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.card h1{
+    background-image: url(img/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.input-group{
+    margin-top: 20px;
+}
+
+.card-body .image, img{
+
+    width: 60px;
+    margin-bottom: 20px;
+
+}
+
+.fw-bold .fs-1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
